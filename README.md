@@ -2,7 +2,7 @@ Simple document scanner that uses opencv.
 
 how does it work?
 
-Well, at the beggining it tries to detect edges (outline window on screenshots) of paper/document then uses the edges to find the contour (edged window on screnshots) and in the end it applies perspective to emulate top-down view. 
+Well, at the beggining it tries to detect edges (edged window on screenshots) of paper/document then uses the edges to find the contour (Outline window on screnshots) and in the end it applies perspective to emulate top-down view. 
 
 sometimes it gets weird output when background and text on paper is not dark enough.
 
